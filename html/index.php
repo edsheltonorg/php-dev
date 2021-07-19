@@ -5,7 +5,7 @@
         <title>Ed PHP Test</title>
     </head>
 <body>
-    <h2>I Love You Beth</h2>
+    <h2>PHP Test</h2>
     <form action="" method="post" name="submission">
         <p>Name: <input type="text" name="name" /></p>
         <p>Columns: <input type="text" name="column" /></p>

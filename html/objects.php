@@ -4,17 +4,17 @@ class C {
     public $fname = 'Ed';
     public $lname = 'Shelton';
 }
+echo "
+class C {
+    public $fname = 'Ed';
+    public $lname = 'Shelton';
+}
+<br>";
 
 $o = new C;
+echo "$o->fname"." "."$o->lname"."<br>";
 $p = $o;
-$o->fname = "Beth";
+$o->fname = "Bob";
 echo "$o->fname"." "."$o->lname"."<br>";
 echo "$p->fname"." "."$p->lname"."<br>";
-
-$a = new C;
-$b = &$a;
-$b->fname = "Beth";
-echo "$a->fname"." "."$a->lname"."<br>";
-echo "$b->fname"." "."$b->lname"."<br>";
-
 ?>
